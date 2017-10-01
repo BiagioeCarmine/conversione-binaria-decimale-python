@@ -9,7 +9,7 @@ def inizioprogramma():
     bad=True;
     while bad==True:
         print "-------------------------------------------------------------------";
-        print "Versione Python realizzata da Carmine del";
+        print "Versione scritta in Python realizzata da Carmine del";
         print "convertitore decimale-binario binario-decimale Di Carmine e Biagio";
         print "-------------------------------------------------------------------";
         print "";
