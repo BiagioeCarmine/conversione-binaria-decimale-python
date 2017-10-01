@@ -1,5 +1,7 @@
 #!/bin/python
 import math;
+contatore=int(1);
+resti=int(0);
 bad=True;
 while bad==True:
     print "Hello World!";
@@ -21,3 +23,16 @@ while bad==True:
 print "decbin=",decbin;
 print "bindec=",bindec;
 print "bad=",bad;
+if decbin==True:
+    print "Inserisci un numero decimale da convertire in binario";
+if bindec==True:
+    print "Inserisci un numero binario da convertire in decimale";
+numeroin=input();
+if decbin==True:
+    numerocorrente=int(numeroin)
+    while numerocorrente>0:
+        resto=numerocorrente%2;
+        resti=int(resti+resto*contatore);
+        numerocorrente=int(numerocorrente/2);
+        contatore=contatore*10;
+    print "Il numero convertito in decimale e'",resti;
