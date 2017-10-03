@@ -49,7 +49,7 @@ def inizioprogramma():
             if ultimac!=1 and ultimac!=0:
                 numerovabene=False;
             numerodacontrollare=numerodacontrollare/10; #Fine controllo numero binario
-        if numerovabene==False:                         #Inizio applicazione controllo numero binario
+        if not numerovabene:                         #Inizio applicazione controllo numero binario
             print "INSERISCI UN NUMERO BINARIO SE VERAMENTE VUOI FARE Binario->Decimale";
             inizioprogramma();                          #Fine applicazione controllo numero binario
         while numerocorrente>0:
